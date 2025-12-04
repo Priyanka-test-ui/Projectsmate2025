@@ -1,39 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-04T12:42:21 IST" name="suite1" finished-at="2025-12-04T12:42:38 IST" duration-ms="16703">
+  <suite started-at="2025-12-04T13:29:54 IST" name="Default suite" finished-at="2025-12-04T13:30:02 IST" duration-ms="7884">
     <groups>
     </groups>
-    <test started-at="2025-12-04T12:42:21 IST" name="test" finished-at="2025-12-04T12:42:38 IST" duration-ms="16703">
-      <class name="testCases.TC002_InvalidEmailCheck">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC002_InvalidEmailCheck@4e928fbf]" started-at="2025-12-04T12:42:33 IST" name="setup" finished-at="2025-12-04T12:42:36 IST" duration-ms="3653" status="PASS">
+    <test started-at="2025-12-04T13:29:54 IST" name="Default test" finished-at="2025-12-04T13:30:02 IST" duration-ms="7884">
+      <class name="testCases.TC003_AlreadyRegEmail">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC003_AlreadyRegEmail@4f4c4b1a]" started-at="2025-12-04T13:29:54 IST" name="setup" finished-at="2025-12-04T13:30:00 IST" duration-ms="5313" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_InvalidEmail()[pri:0, instance:testCases.TC002_InvalidEmailCheck@4e928fbf]" started-at="2025-12-04T12:42:36 IST" name="verify_InvalidEmail" finished-at="2025-12-04T12:42:37 IST" duration-ms="1023" status="PASS">
+        <test-method signature="verify_SignupUsingAlreadyRegistered_Email()[pri:0, instance:testCases.TC003_AlreadyRegEmail@4f4c4b1a]" started-at="2025-12-04T13:30:00 IST" name="verify_SignupUsingAlreadyRegistered_Email" finished-at="2025-12-04T13:30:02 IST" duration-ms="1892" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_InvalidEmail -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_InvalidEmailCheck@4e928fbf]" started-at="2025-12-04T12:42:37 IST" name="tearDown" finished-at="2025-12-04T12:42:38 IST" duration-ms="396" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC002_InvalidEmailCheck -->
-      <class name="testCases.TC001_CreateAcc">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC001_CreateAcc@64e7619d]" started-at="2025-12-04T12:42:22 IST" name="setup" finished-at="2025-12-04T12:42:27 IST" duration-ms="5718" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verify_acc_registration()[pri:0, instance:testCases.TC001_CreateAcc@64e7619d]" started-at="2025-12-04T12:42:27 IST" name="verify_acc_registration" finished-at="2025-12-04T12:42:32 IST" duration-ms="4709" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_acc_registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_CreateAcc@64e7619d]" started-at="2025-12-04T12:42:32 IST" name="tearDown" finished-at="2025-12-04T12:42:33 IST" duration-ms="519" status="PASS">
+        </test-method> <!-- verify_SignupUsingAlreadyRegistered_Email -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_AlreadyRegEmail@4f4c4b1a]" started-at="2025-12-04T13:30:02 IST" name="tearDown" finished-at="2025-12-04T13:30:02 IST" duration-ms="569" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC001_CreateAcc -->
-    </test> <!-- test -->
-  </suite> <!-- suite1 -->
+      </class> <!-- testCases.TC003_AlreadyRegEmail -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

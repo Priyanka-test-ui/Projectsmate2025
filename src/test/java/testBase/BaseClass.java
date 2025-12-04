@@ -19,7 +19,7 @@ import org.testng.annotations.BeforeClass;
 public class BaseClass {
 	
 	public Properties p;
-	public WebDriver driver;
+	public static WebDriver driver;
 	
 	@BeforeClass
 	public void setup() throws IOException

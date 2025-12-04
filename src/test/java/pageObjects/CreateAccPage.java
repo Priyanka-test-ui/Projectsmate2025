@@ -41,6 +41,9 @@ public class CreateAccPage extends BasePage{
 	@FindBy(xpath="//p[@id='undefined-form-item-message']")
 	WebElement error_msg;
 	
+	@FindBy(xpath="//section//div[contains(text(),'This email is already registered')]")
+	WebElement error_popup_mailExist;
+	
 	public void enter_name(String name)
 	{
 		name_txtbox.sendKeys(name);
@@ -76,6 +79,12 @@ public class CreateAccPage extends BasePage{
 	{
 		return(error_msg.getText());
 	}
+	
+	public String error_already_mail_exists()
+	{
+		return(error_popup_mailExist.getText());
+	}
+	
 	
 	
 	public void click_login()
